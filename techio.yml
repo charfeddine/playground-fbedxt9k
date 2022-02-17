@@ -1,0 +1,17 @@
+title : .NET Core ASP Web Project
+plan:
+  - title: ASP .NET Core on Tech.io # Set the page title (only displayed if your contribution has several pages)
+    statement: markdowns/welcome.md # Set the file path to the page content
+#  - title: Another Page
+#    statement: markdowns/another-page.md
+
+
+# Settings for your programming projects and the associated Docker images
+projects:
+  first-project:
+    root: /ASPNETCoreTemplate
+    buildCommand: dotnet restore
+    runner:
+      name: microsoft/aspnetcore-build
+      version: latest
+      
